@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App-SAT</title>
+  <meta charset="utf-8">
+  <meta name="description" content="App-SAT">
+  <meta name="author" content="by DataFalcon Industries">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>App-SAT</h1>
+    <h2>Learning about national educational issues by exploring SAT scores.</h2>
+    <p>by DataFalcon Industries<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:#FFFACD;">
+  <hgroup>
+    <h2>U.S. High School Education could be better</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Can we learn from SAT scores?
+More generally, can we educate voters on complex, data-driven issues?</p>
+
+<ol>
+<li>The United States lags behind other industrialized nations in secondary education.</li>
+<li>Differences in large population means of educational attainment must have underlying causes.</li>
+<li>Local solutions, such as charter schools, don&#39;t address the fundamental problem
+
+<ul>
+<li>Success is often just a matter of exclusivity</li>
+<li>No local system has found an answer scalable to a state or a country</li>
+<li>Any conjectured local solution would be expensive to scale</li>
+</ul></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:#EEFFEE;">
+  <hgroup>
+    <h2>Data Exists that Could Shed Light on Answers</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Individual states have widely differing approaches to education</li>
+<li>A common, though imperfect, standardized measure exists... the SAT</li>
+</ol>
+
+<h3>Can We Learn from SAT Scores? or...</h3>
+
+<h3>Has one of our United States solved the high school education problem?</h3>
+
+<pre><code>##        state expend ratio salary perc verbal math total
+## 1    Alabama  4.405  17.2 31.144    8    491  538  1029
+## 2     Alaska  8.963  17.6 47.951   47    445  489   934
+## 3    Arizona  4.778  19.3 32.175   27    448  496   944
+## 4   Arkansas  4.459  17.1 28.934    6    482  523  1005
+## 5 California  4.992  24.0 41.078   45    417  485   902
+</code></pre>
+
+<pre><code>## [1] &quot;Maximum State SAT score&quot; &quot;1107&quot;
+</code></pre>
+
+<pre><code>## [1] &quot;Minimum State SAT score&quot; &quot;844&quot;
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:#C0C0C0;">
+  <hgroup>
+    <h2>APP-SAT - A web based utility to explore SAT data...</h2>
+  </hgroup>
+  <article data-timings="">
+    <h2>and answer these questions for yourself.</h2>
+
+<div style='text-align: center;'>
+    <img height='480' src='ScreenShot.png' />
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:#FFFFEE;">
+  <hgroup>
+    <h2>Simple Analysis Produces Erroneous Conclusions</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>SAT scores do not appear correlated to expected inputs
+
+<ul>
+<li>Insensitive to teacher salary, class size and spending per pupil</li>
+<li>Relativley &quot;poor&quot; states appear to have better outcomes</li>
+</ul></li>
+<li>Cursory analysis shows that North Dakota appears to be successful
+
+<ul>
+<li>A closer look shows that self-selection bias might be at the root of high SAT scores</li>
+<li>The only measure with strong correlation is percentage of students taking the test</li>
+</ul></li>
+<li>We believe that interactive data will better educate voters
+
+<ul>
+<li>Issues are complex but web-based tools can make them intuitive</li>
+<li>Future product enhancements are coming soon</li>
+</ul></li>
+</ol>
+
+<h2>App-SAT is just the beginning...</h2>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='U.S. High School Education could be better'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Data Exists that Could Shed Light on Answers'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='APP-SAT - A web based utility to explore SAT data...'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Simple Analysis Produces Erroneous Conclusions'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

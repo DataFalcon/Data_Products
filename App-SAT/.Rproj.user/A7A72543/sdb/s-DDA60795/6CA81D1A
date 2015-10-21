@@ -1,0 +1,17 @@
+{
+    "contents" : "library(shinyapps)\nshinyapps::deployApp('~/Learning/Johns Hopkins/R_Work/App-SAT')\n",
+    "created" : 1445237803695.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "366400944",
+    "id" : "6CA81D1A",
+    "lastKnownWriteTime" : 32370120545140837,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
